@@ -1,0 +1,34 @@
+# Custom messages
+BanTempMessage: "§cHas sido baneado del servidor \n §cExpira en§7: §e{day} dias §c/§e {hour} §ehoras §c/ §e{minute} §eminutos \n §cRazón: §e{reason}"
+BanTempBroadcast: "§c{player} ha sido baneado del servidor\n §cExpira en§7: §e{day} §edias §c/§e {hour} §ehoras §c/ §e{minute} §eminutos \n §cRazón: §e{reason}"
+LoginBanTempMessage: "§cESTAS BANEADO DEL SERVER \n §cExpira en§7: §e{day} §edias §c/§e {hour} §ehoras §c/ §e{minute} §eminutos \n §cRazón: §e{reason} \n §cBaneado por: §e{staff}"
+BanInfoUI: "§cInformacion del jugador§r \n §eDias:§e {day} §eHoras:§e {hour} §eMinutos:§e {minute} §eSegundos:§e {second} \n §cRazón§7:§e {reason} \n §cBaneado por:§e {staff}"
+MuteBroadcast: "§e{player} §cFue muteado por: \n§e{day} §edias / {hour} §ehoras / {minute} §eminutos\n§cRazon: §e{reason}"
+MuteChat: "§c!§c Has sido muteado por §e{staff} §c durante §e{day} §edias §c/§e {hour}  §ehoras §c/ §e{minute}  §eminutos \n §cRazón: §e{reason}"
+MuteInfoUI: "§cInformacion del jugador\n§e Dias:§e {day} §e Horas:§e {hour} §e Minutos:§e {minute} §e Segundos:§e {second}\n§c Razón:§e {reason}\n§c Muteado por:§e {staff}"
+
+# AutoBan si se sale del juego CONGELADO
+days: 30
+hours: 0
+minutes: 0
+reason: "Saliste estando frozeado "
+autobanmsg: "§c{player} ha sido baneado del servidor\n §cTiempo§7: §e{day} §edias §c/§e {hour} §ehoras §c/ §e{minute} §eminutos \n §cRazón: §e{reason}"
+serverbanmsg: "§c{player} ha sido baneado del servidor\n §cTiempo§7: §e{day} §edias §c/§e {hour} §ehoras §c/ §e{minute} §eminutos \n §cRazón: §e{reason}"
+
+# Discord webHook ( reports )
+webhook_url: ""
+banned_list:
+  - '@everyone'
+
+# Custom messages
+BanMe: "§cNo puedes banearte a ti mismo"
+UnBan: "§e{player} §aFue desbaneado del servidor"
+AutoUnBanPlayer: "§aUn jugador ha sido desbaneado automáticamente"
+TeleportMe: "§eNo puedes teletransportarte"
+NoBanPlayers: "§eNo hay jugadores baneados."
+MuteMe: "§eNo puedes mutearte a ti mismo"
+NoMutePlayers: "§aNo hay jugadores Muteados."
+UnMute: "§e{player}§a Fue desmuteado del servidor"
+AutoUnMutePlayer: "§a Un jugador fue desmuteado automaticamente"
+attack: "No puedes hacer esto."
+freezeMe: "No puedes congelarte tu mismo."
